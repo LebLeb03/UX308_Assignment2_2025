@@ -11,7 +11,7 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
     wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js');
-    wp_enqueue_script_module('custom_module1',"https://lebleb03.github.io/Assignment_1_UX308/Order.js");
+    wp_enqueue_script_module('custom_module1',"https://lebleb03.github.io/Assignment_1_UX308/Index.js");
     wp_enqueue_script_module('custom_module2',"https://rhildred.github.io/chatter/fab.js");
 }
 
