@@ -12,7 +12,7 @@ function theme_enqueue_styles() {
     );
     wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js');
     wp_enqueue_script_module('custom_module1',"https://lebleb03.github.io/Assignment_1_UX308/index.js");
-    wp_enqueue_script_module('custom_module2',"https://rhildred.github.io/chatter/fab.js");
+    wp_enqueue_script_module('custom_module2',"https://raw.githubusercontent.com/LebLeb03/Test_A_Fix/refs/heads/main/fab.js");
 }
 
 //
