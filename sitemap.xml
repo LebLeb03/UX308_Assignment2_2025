@@ -17,6 +17,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/contact-us/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/products/sample-product-page/
         </loc>
     </url>
