@@ -63,8 +63,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 }
 </style>
 <link rel='stylesheet' id='dashicons-css' href='/UX308_Assignment2_2025/wp-includes/css/dashicons.min.css?ver=6.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='al_product_styles-css' href='/UX308_Assignment2_2025/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1743695590&#038;ver=6.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ic_blocks-css' href='/UX308_Assignment2_2025/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1743695590&#038;ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='al_product_styles-css' href='/UX308_Assignment2_2025/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1743697859&#038;ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ic_blocks-css' href='/UX308_Assignment2_2025/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1743697859&#038;ver=6.7.2' type='text/css' media='all' />
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -134,40 +134,92 @@ jQuery(document).ready(function($){$("#wrapper").vids();});
   <meta charset="UTF-8">
   <title>Contact Dreamy Pizzeria</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&#038;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://lebleb03.github.io/Contact_form_UX308/x-form.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0b0c10;
+      font-family: 'Orbitron', sans-serif;
+      color: #66fcf1;
+    }
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+    .card-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .contact-card {
+      flex: 1 1 250px;
+      background: rgba(11, 12, 16, 0.95);
+      border-radius: 10px;
+      padding: 30px;
+      max-width: 300px;
+      box-shadow: 0 0 15px rgba(102, 252, 241, 0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contact-card a {
+      display: inline-block;
+      margin-top: 15px;
+      background: #45a29e;
+      color: #0b0c10;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(69, 162, 158, 0.8);
+      font-weight: bold;
+    }
+    x-subscriberform {
+      display: block;
+      margin-top: 60px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 20px rgba(102, 252, 241, 0.2);
+      background: rgba(11, 12, 16, 0.9);
+      padding: 30px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
-<body style="margin: 0; padding: 0; background: #0b0c10; font-family: 'Orbitron', sans-serif; color: #66fcf1;">
+<body>
 
-  <div style="padding: 40px; text-align: center;">
+  <div class="container">
     <h1 style="color: #45a29e; font-size: 32px; text-shadow: 0 0 5px #66fcf1;">📡 Contact Dreamy Pizzeria</h1>
     <p style="font-size: 18px; margin-top: 20px; color: #c5c6c7;">Reach out to us — whether you&#8217;re floating in orbit or just craving a slice!</p>
 
-    <!-- Contact Cards Container -->
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px;">
-
+    <div class="card-row">
       <!-- Phone Card -->
-      <div style="flex: 1 1 250px; background: rgba(11, 12, 16, 0.95); border-radius: 10px; padding: 30px; max-width: 300px; box-shadow: 0 0 15px rgba(102, 252, 241, 0.4);">
-        <h2 style="color: #66fcf1; font-size: 24px; margin-bottom: 10px;">📞 Call Us</h2>
+      <div class="contact-card">
+        <h2 style="font-size: 24px; margin-bottom: 10px;">📞 Call Us</h2>
         <p style="font-size: 16px;">Want to order by phone or ask us something directly?</p>
-        <a href="tel:+1234567890" style="display: inline-block; margin-top: 15px; background: #45a29e; color: #0b0c10; padding: 10px 20px; border-radius: 6px; text-decoration: none; box-shadow: 0 0 10px rgba(69, 162, 158, 0.8); font-weight: bold;">+1 (234) 567-890</a>
+        <a href="tel:+1234567890">+1 (234) 567-890</a>
       </div>
 
       <!-- Email Card -->
-      <!-- Email Card -->
-<div style="flex: 1 1 250px; background: rgba(11, 12, 16, 0.95); border-radius: 10px; padding: 30px; max-width: 300px; box-shadow: 0 0 15px rgba(102, 252, 241, 0.4); display: flex; flex-direction: column; align-items: center; text-align: center;">
-  <h2 style="color: #66fcf1; font-size: 24px; margin-bottom: 10px;">📧 Email Us</h2>
-  <p style="font-size: 16px;">Need to send us star charts or compliments?</p>
-  <a href="mailto:info@dreamypizzeria.com" 
-     style="display: inline-block; margin-top: 15px; background: #45a29e; color: #0b0c10; padding: 10px 20px; border-radius: 6px; text-decoration: none; box-shadow: 0 0 10px rgba(69, 162, 158, 0.8); font-weight: bold;">
-     info@dreamypizzeria.com
-  </a>
-</div>
-
-
+      <div class="contact-card">
+        <h2 style="font-size: 24px; margin-bottom: 10px;">📧 Email Us</h2>
+        <p style="font-size: 16px;">Need to send us star charts or compliments?</p>
+        <a href="mailto:info@dreamypizzeria.com">info@dreamypizzeria.com</a>
+      </div>
     </div>
+
+    <!-- Subscriber Form -->
+    <x-subscriberform></x-subscriberform>
   </div>
 
+  <script src="https://lebleb03.github.io/Contact_form_UX308/x-form.js" type="module"></script>
 </body>
 </html>
+
 <div class="entry-links"></div>
 </div>
 </article>
